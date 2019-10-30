@@ -6,7 +6,7 @@
     "tests": false,
     "publish": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "license": "MIT",
   "author": "iamauthor",
   "main": "dist/index.js",
