@@ -8,3 +8,9 @@ export const Thing = () => {
 export const Thing2 = () => {
   return <div>2222222</div>;
 };
+
+export const Thing3 = () => {
+  return <div>2222222</div>;
+};
+
+
