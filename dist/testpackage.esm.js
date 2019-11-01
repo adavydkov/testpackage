@@ -6,6 +6,12 @@ var Thing = function Thing() {
 var Thing2 = function Thing2() {
   return createElement("div", null, "2222222");
 };
+var Thing3 = function Thing3() {
+  return createElement("div", null, "2222222");
+};
+var Thing4 = function Thing4() {
+  return createElement("div", null, "2222222");
+};
 
-export { Thing, Thing2 };
+export { Thing, Thing2, Thing3, Thing4 };
 //# sourceMappingURL=testpackage.esm.js.map

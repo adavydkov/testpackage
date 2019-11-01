@@ -19,7 +19,10 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --env=jsdom",
-    "lint": "tsdx lint"
+    "lint": "tsdx lint",
+    "version": "npm run build && git add . && git commit -m 'changelogupdate' --no-verify",
+    "postversion": "git add . && git push --no-verify && git push --tags --no-verify",
+    "clean": "rmdir dist /S /Q"
   },
   "peerDependencies": {
     "react": ">=16"
