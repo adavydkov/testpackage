@@ -14,9 +14,13 @@ var Thing3 = function Thing3() {
 var Thing4 = function Thing4() {
   return React.createElement("div", null, "2222222");
 };
+var Thing5 = function Thing5() {
+  return React.createElement("div", null, "2222222");
+};
 
 exports.Thing = Thing;
 exports.Thing2 = Thing2;
 exports.Thing3 = Thing3;
 exports.Thing4 = Thing4;
+exports.Thing5 = Thing5;
 //# sourceMappingURL=testpackage.cjs.development.js.map
